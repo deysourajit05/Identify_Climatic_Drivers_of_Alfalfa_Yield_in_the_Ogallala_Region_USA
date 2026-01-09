@@ -9,5 +9,12 @@ This is the raw data file used in the study, which was created by merging all cl
 
 ### Main_codes_ogallala_aquifer.R
 This script initially adds the centroids for each county specified by latitude and longitude, which helps to make spatial maps with this data. Descriptive statistics were eventually done with the dataset. Eventually, some self-explanatory graphs are created for the paper, which are mentioned in the script. Then, for the mRMR ranking data, it is prepared starting from line 892. Codes for plots related to mRMR are also provided. The code chunk from 1113 to 1227 shows how the number of features subset were selected based on the RMSE value. This chunk also includes the plotting of the same.  Then, the effectiveness of the subset selected by mRMR for alfalfa yield estimation was checked by some tree-based models, namely, Gradient boosting, extreme gradient boosting, Light gradient boosting, and Random Forest machine learning models. 
+
 Within each model, with its heading in chunks (e.g., line 1229), after the model is run, all the error metrics are compiled into a table to create a map based on the error matrix. Finally, scatter plots were created comparing actual yield values to estimated yield values for alfalfa.
+
 SHAP was executed for the XGBoost model, which is in the chunk from 1839 to 1928, including the plots created from SHAP analysis.
+
+### License
+- Code: MIT License
+- Data: Creative Commons Attribution 4.0 (CC BY 4.0)
+
