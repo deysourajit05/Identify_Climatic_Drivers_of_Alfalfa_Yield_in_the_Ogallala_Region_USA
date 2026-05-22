@@ -40,3 +40,19 @@ This script initially adds the centroids for each county specified by latitude a
 - Code: MIT License
 - Data: Creative Commons Attribution 4.0 (CC BY 4.0)
 
+## Citation & Data Access
+A formal citation will be available via **Zenodo** upon publication. 
+
+In the meantime, please contact the corresponding author for dataset access, specific data queries, or related research questions.
+
+## Contact Information
+
+### 💻 Code & Implementation
+**Sourajit Dey**  
+Kansas State University  
+Email: [sdey@ksu.edu](mailto:sdey@ksu.edu)
+
+### ✉️ Corresponding Author
+**Gaurav Jha**  
+Kansas State University  
+Email: [gjha@ksu.edu](mailto:gjha@ksu.edu)
