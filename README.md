@@ -24,6 +24,9 @@
 ## Overview
 This repository contains the R code and data processing workflows for identifying key climatic drivers of alfalfa yield within the Ogallala Aquifer region using explainable machine learning and feature selection  techniques. Climatic features were collected from PRISM and GridMET from 1981 to 2018, along with county-level alfalfa yield data from USDA-NASS. 
 
+### Alfalfa_Master_Final_Analysis_1981_2018.csv
+This file is the cleaned data used for analysis.
+
 ### PRISM_data_download.R
 This script is used to download PRISM climate datasets. To ensure computational stability and prevent R session crashes, data downloads should be performed in short time chunks, with a maximum of one year per download for each climate variable (e.g., tmin, tmax, precip, and so on). Processing the data year-by-year for each parameter is strongly recommended, especially when working with large spatial extents or multiple variables.
 
